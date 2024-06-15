@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.18)
 
-project(Hork-Samples)
+project(Hork-Samples-Archive)
 
-include(Hork-Source/hork_config.cmake)
+include(Hork-Source-Archive/hork_config.cmake)
 
-add_subdirectory(Hork-Source)
+add_subdirectory(Hork-Source-Archive)
 
-include_directories(Hork-Source)
+include_directories(Hork-Source-Archive)
 include_directories(${CMAKE_BINARY_DIR}/include/ThirdParty)
 
 set(HK_ASSET_DATA_PATH "${CMAKE_CURRENT_SOURCE_DIR}/Data")
